@@ -56,13 +56,6 @@ public class EditCanvasPanel extends javax.swing.JPanel {
         opacitySliderHandler = new DrawingAttributeEditorHandler<>(CANVAS_FILL_OPACITY, opacitySlider, null);
     }
 
-    private JColorChooser getColorChooser() {
-        if (colorChooser == null) {
-            colorChooser = new JColorChooser();
-        }
-        return colorChooser;
-    }
-
     /**
      * Sets the GridConstrainer to be edited by this panel.
      *
