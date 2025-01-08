@@ -1,0 +1,76 @@
+{
+  "className": "org.jhotdraw.action.edit.MyJGivenTest",
+  "name": "My J Given",
+  "scenarios": [
+    {
+      "className": "org.jhotdraw.action.edit.MyJGivenTest",
+      "testMethodName": "test_scenario",
+      "description": "test scenario",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "some initial state",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "a text component with text"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 2427600,
+              "depth": 0,
+              "parentFailed": false
+            },
+            {
+              "name": "an action is performed",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "an action is performed"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 119200,
+              "depth": 0,
+              "parentFailed": false
+            },
+            {
+              "name": "the outcome is verified",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the outcome is verified"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 145200,
+              "depth": 0,
+              "parentFailed": false
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "durationInNanos": 24976500
+        }
+      ],
+      "casesAsTable": false,
+      "durationInNanos": 24976500
+    }
+  ],
+  "tagMap": {}
+}
